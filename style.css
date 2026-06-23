@@ -1,0 +1,198 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    min-height:100vh;
+    padding:50px 20px;
+}
+
+.container{
+    width:100%;
+    max-width:700px;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.input-section{
+    display:flex;
+    gap:10px;
+}
+
+.input-section input{
+    flex:1;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    font-size:16px;
+}
+
+.input-section button{
+    padding:12px 20px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    background:#2563eb;
+    color:white;
+}
+
+.filters{
+    display:flex;
+    gap:10px;
+    margin-top:20px;
+}
+
+.filters button{
+    padding:10px 15px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    background:#e5e7eb;
+}
+
+.stats{
+    margin-top:20px;
+    display:flex;
+    justify-content:space-between;
+    font-weight:bold;
+}
+
+#taskList{
+    list-style:none;
+    margin-top:25px;
+}
+
+.task{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px;
+    margin-bottom:10px;
+    border:1px solid #ddd;
+    border-radius:12px;
+}
+
+.task-left{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.completed{
+    text-decoration:line-through;
+    opacity:0.6;
+}
+
+.task-buttons{
+    display:flex;
+    gap:8px;
+}
+
+.task-buttons button{
+    border:none;
+    padding:8px 10px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.edit-btn{
+    background:#facc15;
+}
+
+.delete-btn{
+    background:#ef4444;
+    color:white;
+}
+#searchInput{
+    width:100%;
+    padding:12px;
+    margin-top:20px;
+    border:1px solid #ccc;
+    border-radius:10px;
+}
+#clearBtn{
+    margin-top:15px;
+    padding:10px 15px;
+    border:none;
+    border-radius:8px;
+    background:#ef4444;
+    color:white;
+    cursor:pointer;
+}
+@media(max-width:768px){
+
+.logo{
+    left:20px;
+    top:20px;
+    font-size:24px;
+}
+
+.social-bar{
+    justify-content:center;
+    gap:15px;
+    padding-top:80px;
+}
+
+.social-bar a{
+    font-size:22px;
+}
+
+.hero{
+    flex-direction:column-reverse;
+    text-align:center;
+    min-height:auto;
+}
+
+.hero-left h1,
+.gold-text{
+    font-size:50px;
+}
+
+.hero-right img{
+    width:220px;
+    height:220px;
+}
+
+.professional-header,
+.academic-header{
+    flex-direction:column;
+    align-items:center;
+}
+
+.tabs{
+    justify-content:center;
+}
+
+.tabs button{
+    padding:8px 16px;
+    font-size:14px;
+}
+
+.professional-box,
+.academic-box{
+    padding:20px;
+}
+
+#content-area,
+#academic-content{
+    font-size:16px;
+}
+
+.container{
+    width:95%;
+}
+}
